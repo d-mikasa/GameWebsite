@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+
+	ul {
+		list-style: none;
+	}
+
+
+
+
+.title-text{
+
+	/* border: 1vh solid white; */
+	white-space: nowrap;
+	font-size: 350px;
+	padding: 0.5%;
+	line-height: 260px;
+	/* display: inline; */
+	text-align: center;
+	border: 2px white solid;
+	font-family: 'Roboto Condensed', sans-serif;
+
+	/* 横軸を中央にする処理 */
+	position: absolute;
+  top: 50%;
+  left: 50%;
+ 	transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+
+.enjoy{
+	letter-spacing: 0.07em
+
+}
+
+
+.background-color{
+
+	height: 85vh;
+	color: white;
+background: rgb(117,88,228);
+background: linear-gradient(127deg, rgba(117,88,228,0.7) 0%, rgba(240,47,150,0.7) 100%),url("../images/set1.jpg") center 20% / cover no-repeat;
+border-top: 4vh solid white;
+}
+
+
+nav{
+
+	width: 50%;
+	float: left;
+	margin-top: 0.3%;
+}
+
+nav ul{
+	font-size: 2vh;
+	display: flex;
+	justify-content: space-between;
+}
